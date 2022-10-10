@@ -17,18 +17,24 @@ import 'swiper/css/pagination';
 const data = [
   {avatar: AVTR1,
    name: "Gachi",
-   review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. "
+   position: "",
+   review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
   },
   {avatar: AVTR2,
-    name: "Pachi",
-    review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. "
+    name: "Braian Oxagaray",
+    position: "Team Leader at NewBanking",
+    link: 'https://www.linkedin.com/in/braian-oxagaray-087308124/',
+    review: "I have worked with Enrique in several freelance projects, both in design and implementation. His attention to detail and contributions in the discussions during development were always very helpful."
    },
    {avatar: AVTR3,
-    name: "and this three",
-    review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. "
+    name: "Leonardo Molinari",
+    position: "React Developer at Marking Sence LLC",
+    link: 'https://www.linkedin.com/in/leomolinari/',
+    review: "Hard worker with excellent relationships always. In the software development field, he showed a quick understanding with a continued growth of knowledge. His diversity in many works fields around the world with his abilities to conflict resolve and his nearness to the technologies makes him a valuable resource as a player on any team."
    },
    {avatar: AVTR4,
-    name: "pelotudos",
+    name: "",
+    position: "",
     review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. "
    },
 ]
@@ -37,7 +43,7 @@ const data = [
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review From clients and Friends</h5>
+      <h5>Reviews</h5>
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container"
@@ -46,13 +52,14 @@ const Testimonials = () => {
        slidesPerView={1}
        pagination={{ clickable: true }}
       >
-        {data.map(({avatar, name, review}, index )=> {
+        {data.map(({avatar, name, review, position, link}, index )=> {
           return( 
             <SwiperSlide key={index} className="testimonial">
           <div className="client__avatar">
             <img src={avatar} alt="" />
           </div>
           <h5 className='client__name'> {name} </h5>
+          <a href= {link} target={'_blank'} rel="noreferrer">{position}</a>
             <small className="client__review"> {review}</small>
           </SwiperSlide>
           )

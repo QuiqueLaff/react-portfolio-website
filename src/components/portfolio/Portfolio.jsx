@@ -15,6 +15,7 @@ const data = [
    title: 'image1',
    github: 'https://github.com',
    demo: 'https://dribble.com', 
+   name: "nombre"
 
   },
   {
@@ -23,6 +24,8 @@ const data = [
     title: 'image2',
     github: 'https://github.com',
     demo: 'https://dribble.com', 
+    name: "Agua de las verdes matas - México"
+
  
    },
    {
@@ -30,7 +33,9 @@ const data = [
     image: IMG3,
     title: 'image3',
     github: 'https://github.com',
-    demo: 'https://dribble.com', 
+    demo: 'https://tomon.empretienda.com.ar/', 
+    name: "TOMÓN - Argentina"
+
  
    },
    {
@@ -38,7 +43,9 @@ const data = [
     image: IMG4,
     title: 'image4',
     github: 'https://github.com',
-    demo: 'https://dribble.com', 
+    demo: '', 
+    name: "nombre"
+
  
    },
    {
@@ -47,6 +54,8 @@ const data = [
     title: 'image5',
     github: 'https://github.com',
     demo: 'https://dribble.com', 
+    name: "nombre"
+
  
    },
    {
@@ -55,6 +64,8 @@ const data = [
     title: 'image6',
     github: 'https://github.com',
     demo: 'https://dribble.com', 
+    name: "nombre"
+
  
    },
 ]
@@ -67,13 +78,13 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, title, github, demo, name}) => {
             return(
               <article key= {id} className='portfolio__item'>
               <div className="portfolio__item-image">
                 <img src={image} alt= {title}></img>
               </div>
-              <h3>This is a portfolio item article</h3>
+              <h3>{name}</h3>
               <div className="portfolio__item-cta">
                 <a href= {github} className='btn' target={'_blank'} rel="noreferrer">Github</a>
                 <a href= {demo} className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
