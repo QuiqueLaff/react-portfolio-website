@@ -5,8 +5,9 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {BiMessageSquareDetail} from 'react-icons/bi'
-// import {HiOutlineDesktopComputer} from 'react-icons/hi'
 import {ImWhatsapp} from 'react-icons/im'
+// import {HiOutlineDesktopComputer} from 'react-icons/hi'
+
 
 import {useState} from 'react'
 
