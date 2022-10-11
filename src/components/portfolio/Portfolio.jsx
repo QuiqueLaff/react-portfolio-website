@@ -4,7 +4,7 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG5 from '../../assets/portfolio5.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
  
 
@@ -12,26 +12,26 @@ const data = [
   {
    id: 1,
    image: IMG1,
-   title: 'image1',
+   title: 'Presentation game',
    github: 'https://github.com/enriquelaffranconi/Presentationgame',
    demo: 'https://presentation-eight-mu.vercel.app/', 
    name: "Personal introduction"
 
   },
   {
+    
     id: 1,
-    image: IMG2,
-    title: 'image2',
-    github: 'https://github.com',
-    demo: 'https://dribble.com', 
-    name: "Agua de las verdes matas - México"
-
+    image: IMG4,
+    title: 'Portfolio',
+    github: 'https://github.com/enriquelaffranconi/react-portfolio-website',
+    demo: 'https://react-portfolio-website-968l.vercel.app/', 
+    name: "Portfolio"
  
    },
    {
     id: 1,
     image: IMG3,
-    title: 'image3',
+    title: 'Tomón',
     github: 'https://github.com',
     demo: 'https://tomon.empretienda.com.ar/', 
     name: "TOMÓN - Argentina"
@@ -40,21 +40,19 @@ const data = [
    },
    {
     id: 1,
-    image: IMG4,
-    title: 'image4',
+    image: IMG2,
+    title: 'Agua de las verdes matas',
     github: 'https://github.com',
-    demo: '', 
-    name: "nombre"
-
- 
+    demo: 'https://dribble.com', 
+    name: "Agua de las verdes matas - México"
    },
    {
     id: 1,
     image: IMG5,
-    title: 'image5',
+    title: 'DeliveryDCP',
     github: 'https://github.com',
-    demo: 'https://dribble.com', 
-    name: "nombre"
+    demo: 'https://www.deliverydcp.com/', 
+    name: "Delivery DCP"
 
  
    },
