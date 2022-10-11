@@ -13,9 +13,9 @@ const data = [
    id: 1,
    image: IMG1,
    title: 'image1',
-   github: 'https://github.com',
-   demo: 'https://dribble.com', 
-   name: "nombre"
+   github: 'https://github.com/enriquelaffranconi/Presentationgame',
+   demo: 'https://presentation-eight-mu.vercel.app/', 
+   name: "Personal introduction"
 
   },
   {

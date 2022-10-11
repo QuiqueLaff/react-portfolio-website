@@ -30,7 +30,7 @@ const data = [
     name: "Leonardo Molinari",
     position: "React Developer at Marking Sence LLC",
     link: 'https://www.linkedin.com/in/leomolinari/',
-    review: "Hard worker with excellent relationships always. In the software development field, he showed a quick understanding with a continued growth of knowledge. His diversity in many works fields around the world with his abilities to conflict resolve and his nearness to the technologies makes him a valuable resource as a player on any team."
+    review: "Hard worker with excellent relationships always. In the software development field, he showed a quick understanding with a continued growth of knowledge."
    },
    {avatar: AVTR4,
     name: "",
