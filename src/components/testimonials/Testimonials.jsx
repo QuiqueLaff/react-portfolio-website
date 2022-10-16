@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
+// import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+// import AVTR4 from '../../assets/avatar4.jpg'
 
 import {Pagination} from 'swiper';
 
@@ -15,11 +15,11 @@ import 'swiper/css/pagination';
  
 
 const data = [
-  {avatar: AVTR1,
-   name: "Gachi",
-   position: "",
-   review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-  },
+  // {avatar: AVTR1,
+  //  name: "Gachi",
+  //  position: "",
+  //  review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+  // },
   {avatar: AVTR2,
     name: "Braian Oxagaray",
     position: "Team Leader at NewBanking",
@@ -32,11 +32,11 @@ const data = [
     link: 'https://www.linkedin.com/in/leomolinari/',
     review: "Hard worker with excellent relationships always. In the software development field, he showed a quick understanding with a continued growth of knowledge."
    },
-   {avatar: AVTR4,
-    name: "",
-    position: "",
-    review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. "
-   },
+  //  {avatar: AVTR4,
+  //   name: "",
+  //   position: "",
+  //   review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. "
+  //  },
 ]
 
 

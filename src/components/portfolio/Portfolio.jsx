@@ -5,7 +5,7 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
-import IMG6 from '../../assets/portfolio6.jpg'
+// import IMG6 from '../../assets/portfolio6.jpg'
  
 
 const data = [
@@ -53,16 +53,6 @@ const data = [
     github: 'https://github.com',
     demo: 'https://www.deliverydcp.com/', 
     name: "Delivery DCP"
-
- 
-   },
-   {
-    id: 1,
-    image: IMG6,
-    title: 'image6',
-    github: 'https://github.com',
-    demo: 'https://dribble.com', 
-    name: "nombre"
 
  
    },
