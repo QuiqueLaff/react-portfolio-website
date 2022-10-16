@@ -40,7 +40,7 @@ const About = () => {
                 <small>Full-time job</small>
               </article> 
             </div>
-            <p>After years working in the Film Industry, I decided to have a career switch and fully focus on programming. Innovative, task-driven and detail-oriented, I recently acquired great proficiency in CSS, HTML, JavaScript, NodeJS and React."</p>
+            <p>I'm currently working as a freelance Web Developer and I'm looking for a full-time position as a Frontend Engineer. I've recently started on this path after ending a 10 year journey working on the films industry and decided to fully commit to it. I love turning ideas into a reality writing code, it's empowering and stimulating. I can't wait to start working together with an engineering team. Let's have a chat!</p>
             <a href='#contact'className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
