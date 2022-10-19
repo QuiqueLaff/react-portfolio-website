@@ -13,8 +13,8 @@ const data = [
    id: 1,
    image: IMG1,
    title: 'Presentation game',
-   github: 'https://github.com/enriquelaffranconi/Presentationgame',
-   demo: 'https://presentation-eight-mu.vercel.app/', 
+   github: 'https://github.com/enriquelaffranconi/Hello-',
+   demo: 'https://introduction-seven.vercel.app/', 
    name: "Personal introduction"
 
   },
