@@ -15,7 +15,7 @@ const data = [
    title: 'Presentation game',
    github: 'https://github.com/enriquelaffranconi/Hello-',
    demo: 'https://introduction-seven.vercel.app/',
-   name: "Personal introduction"
+   name: "Personal intro"
 
   },
   {
