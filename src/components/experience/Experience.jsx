@@ -14,22 +14,15 @@ const Experience = () => {
             <article className='experience__details'>
             <BsFillPatchCheckFill className='experience__details-icon' />
             <div>
-              <h4>HTML</h4>
+              <h4>React</h4>
               <small className='text-light'>Experience</small>
             </div>
             </article>
             <article className='experience__details'>
             <BsFillPatchCheckFill className='experience__details-icon' />
             <div>
-              <h4>CSS</h4>
+              <h4>Next.js</h4>
               <small className='text-light'>Intermediate</small>
-            </div>
-            </article>
-            <article className='experience__details'>
-            <BsFillPatchCheckFill className='experience__details-icon' />
-            <div>
-              <h4>Boostrap</h4>
-              <small className='text-light'>Experience</small>
             </div>
             </article>
             <article className='experience__details'>
@@ -42,7 +35,21 @@ const Experience = () => {
             <article className='experience__details'>
             <BsFillPatchCheckFill className='experience__details-icon' />
             <div>
-              <h4>React</h4>
+              <h4>Bootsrap</h4>
+              <small className='text-light'>Experience</small>
+            </div>
+            </article>
+            <article className='experience__details'>
+            <BsFillPatchCheckFill className='experience__details-icon' />
+            <div>
+              <h4>HTML/CSS</h4>
+              <small className='text-light'>Experience</small>
+            </div>
+            </article>
+            <article className='experience__details'>
+            <BsFillPatchCheckFill className='experience__details-icon' />
+            <div>
+              <h4>Tailwind</h4>
               <small className='text-light'>Experience</small>
             </div>
             </article>
@@ -70,6 +77,13 @@ const Experience = () => {
             <BsFillPatchCheckFill className='experience__details-icon' />
             <div>
               <h4>MySQL</h4>
+              <small className='text-light'>Experience</small>
+            </div>
+            </article>
+            <article className='experience__details'>
+            <BsFillPatchCheckFill className='experience__details-icon' />
+            <div>
+              <h4>Postman</h4>
               <small className='text-light'>Experience</small>
             </div>
             </article>

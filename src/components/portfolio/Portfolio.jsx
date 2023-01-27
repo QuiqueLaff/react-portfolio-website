@@ -22,7 +22,7 @@ const data = [
     
     id: 1,
     image: IMG4,
-    title: 'Portfolio',
+    title: 'This page',
     github: 'https://github.com/enriquelaffranconi/react-portfolio-website',
     demo: 'https://react-portfolio-website-968l.vercel.app/', 
     name: "Portfolio"
