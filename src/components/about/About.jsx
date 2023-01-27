@@ -36,7 +36,7 @@ const About = () => {
               <article className='about__card'>
                 <FaAward className='about__icon'/>
                 <h5>Task-driven</h5>
-                <small>detail-oriented</small>
+                <small>accurate</small>
               </article> 
             </div>
             <p>After working in the Film Industry for almost a decade, I made a career change to follow my passion for coding. I'm currently working as a freelance Web Developer and I'm looking for a full-time position as a Frontend Engineer. My greatest asset is troubleshooting technical issues and implementing solutions to problems as they arise. I can't wait to contribute my skills and work in a team.</p>
