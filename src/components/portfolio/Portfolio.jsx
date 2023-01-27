@@ -15,7 +15,7 @@ const data = [
    title: 'Presentation game',
    github: 'https://github.com/enriquelaffranconi/Hello-',
    demo: 'https://introduction-seven.vercel.app/',
-   name: "Personal intro"
+   name: "Old shool game intro"
 
   },
   {
@@ -25,7 +25,7 @@ const data = [
     title: 'This page',
     github: 'https://github.com/enriquelaffranconi/react-portfolio-website',
     demo: 'https://react-portfolio-website-968l.vercel.app/', 
-    name: "Portfolio"
+    name: "This website"
  
    },
    {
@@ -34,7 +34,7 @@ const data = [
     title: 'Tomón',
     github: 'https://github.com',
     demo: 'https://tomon.empretienda.com.ar/', 
-    name: "TOMÓN - Argentina"
+    name: "TOMÓN"
 
  
    },
@@ -44,7 +44,7 @@ const data = [
     title: 'Agua de las verdes matas',
     github: 'https://github.com',
     demo: 'https://dribble.com', 
-    name: "Agua de las verdes matas - México"
+    name: "Agua de las Verdes Matas"
    },
    {
     id: 1,
@@ -61,7 +61,6 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
       <h2>Porftolio</h2>
 
       <div className="container portfolio__container">
