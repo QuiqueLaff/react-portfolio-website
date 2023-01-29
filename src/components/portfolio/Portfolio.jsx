@@ -5,7 +5,7 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
-// import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.jpg'
  
 
 const data = [
@@ -15,12 +15,12 @@ const data = [
    title: 'Presentation game',
    github: 'https://github.com/enriquelaffranconi/Hello-',
    demo: 'https://introduction-seven.vercel.app/',
-   name: "Old shool game intro"
+   name: "Game intro"
 
   },
   {
     
-    id: 1,
+    id: 2,
     image: IMG4,
     title: 'This page',
     github: 'https://github.com/enriquelaffranconi/react-portfolio-website',
@@ -29,7 +29,7 @@ const data = [
  
    },
    {
-    id: 1,
+    id: 3,
     image: IMG3,
     title: 'Tomón',
     github: 'https://github.com',
@@ -39,15 +39,16 @@ const data = [
  
    },
    {
-    id: 1,
+    id: 4,
     image: IMG2,
     title: 'Agua de las verdes matas',
     github: 'https://github.com',
     demo: 'https://dribble.com', 
-    name: "Agua de las Verdes Matas"
+    name: "Agua de las Verdes Matas",
+    password: "Password: VerdesMatas"
    },
    {
-    id: 1,
+    id: 5,
     image: IMG5,
     title: 'DeliveryDCP',
     github: 'https://github.com',
@@ -55,6 +56,14 @@ const data = [
     name: "Delivery DCP"
 
  
+   },
+   {
+    id: 6,
+    image: IMG6,
+    title: 'Portfolio Sara Forestan',
+    github: 'https://github.com',
+    demo: 'https://www.saraforestan.com/', 
+    name: "Portfolio Sara Forestan"
    },
 ]
 
@@ -65,7 +74,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo, name}) => {
+          data.map(({id, image, title, github, demo, name, password}) => {
             return(
               <article key= {id} className='portfolio__item'>
               <div className="portfolio__item-image">
@@ -76,6 +85,7 @@ const Portfolio = () => {
                 <a href= {github} className='btn' target={'_blank'} rel="noreferrer">Github</a>
                 <a href= {demo} className='btn btn-primary' target={'_blank'} rel="noreferrer">Live Demo</a>
               </div>
+              <h4>{password}</h4>
             </article>
             )
           })
