@@ -43,7 +43,7 @@ const data = [
     image: IMG2,
     title: 'Agua de las verdes matas',
     github: 'https://github.com',
-    demo: 'https://dribble.com', 
+    demo: 'https://aguadelasverdesmatas.com', 
     name: "Agua de las Verdes Matas",
     password: "Password: VerdesMatas"
    },

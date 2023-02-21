@@ -5,9 +5,6 @@ import {FaAward} from 'react-icons/fa'
 import {SiFreelancer} from 'react-icons/si'
 import {MdLocationOn} from 'react-icons/md'
 
-
-
-
 const About = () => {
   return (
     <section id="about">
